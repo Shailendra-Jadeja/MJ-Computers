@@ -1,0 +1,145 @@
+body{
+    background: #333;
+    color:#fff;
+}
+
+.navbar{
+    border-bottom: #008ed6 3px solid;
+    opacity:0.9;
+    
+}
+
+.dropdown:hover > .dropdown-menu {
+    z-index:100;
+    visibility:visible;
+    display: block;
+}
+
+.dropdown-item{
+    color:#fff;
+}
+
+#home-section{
+    background: url(../img/create-section1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    min-height:700px;
+}
+
+
+
+#home-section .home-inner{
+    padding-top:150px;
+}
+
+#topHeader{
+    background-color: ghostwhite;
+}
+
+#topHeader a{
+    color:#2c3e50;
+    font-weight:600;
+    font-size:0.89rem;
+}
+
+.carousel-item{
+    height:450px;
+}
+
+.carousel-image-1 {
+    background: url(../img/image1.jpg);
+    background-size: cover;
+}
+.carousel-image-2 {
+    background: url(../img/image2.jpg);
+    background-size: cover;
+}
+.carousel-image-3 {
+    background: url(../img/image3.jpg);
+    background-size: cover;
+}
+.carousel-image-4 {
+    background: url(../img/slider_image_4.jpg);
+    background-size: cover;
+}
+.carousel-image-5 {
+    background: url(../img/slider_image_5.jpg);
+    background-size: cover;
+}
+.carousel-inner {
+    
+    background-repeat:no-repeat;
+    
+}
+
+#header-border {
+    border-right: 1px solid black;
+    color: black;
+}
+
+#header-border3{
+    color:black;
+}
+
+.b {
+    padding: 5px;
+    color:black;
+}
+
+.logo {
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+}
+
+.nav-link{
+    color:black;
+}
+
+#slider{
+    overflow:hidden;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin : 0;
+    left : 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
